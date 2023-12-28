@@ -1,0 +1,46 @@
+.container {
+  margin: 1rem;
+}
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif; /* Replace 'M+PLUS+Rounded+1c' with the name of the font you included */
+}
+h1,
+h2,
+h3 {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.editor {
+  padding: 1rem;
+  border: 2px solid #98bef2;
+  box-shadow: 1px 1px 1px #98bef2;
+  height: 70vh;
+  overflow-y: auto;
+}
+.header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+.centerElement {
+  grid-column: 1;
+  justify-self: center;
+  align-self: center;
+}
+.button {
+  background-color: white;
+  box-shadow: 3px 3px 0px 1px rgb(0, 0, 0);
+  font-size: 1rem;
+  display: inline-grid;
+  grid-column: 2;
+  margin: 1rem;
+  height: fit-content;
+  width: fit-content;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 1rem 5rem;
+  }
+}
